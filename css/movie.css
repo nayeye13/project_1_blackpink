@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#slider {
+         width: 100%;
+         height: 100%;
+}
+#slider img {
+         width: 100%;
+         height: 100%;
+}
+
+#contents {
+         width: 1100px;
+         height: 1600px;
+         padding: 20px;
+         box-sizing: border-box;
+         border: 2px solid #f7a7bb;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin-top: 30px;
+         margin-bottom: 30px;}
+
+         #contents h3 {
+                  text-align: center;
+                  width: 100%;
+                  margin: 2%;
+         }

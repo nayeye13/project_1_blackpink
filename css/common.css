@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+
+  /* 헤더 */
+  header{width: 1200px; height: 86px; margin: 0 auto;}
+  /* header div{width: 150px; height: 120px; padding: 20px 20px;} */
+  #logo img{width: 170px; height: 50px;  float: left; margin-top: 20px; background-repeat: no-repeat;}
+  header div > img{float: left; margin-right: 10px; background-repeat: no-repeat;  background-size: contain;}
+  ul{ list-style-type: none; list-style-position: inside; padding: 20px 20px; overflow: hidden; background-color: black; opacity: 1; border: 0; float: right;}
+  li{float:left; border: 50px;}
+  li a{display: block; color: #f7a7bb; transition: 0.5s; text-align: center; padding: 14px 16px; text-decoration: none;}
+  li a:hover{background-color: #f7a7bb; color: black;}
+    
+
+
+
+
+                  /* 푸터 */
+                  footer{width: 1200px; height: 254px; background-color: black; margin: 0 auto;} 
+                  #folo{margin: 0 auto; width: 1200px ; height: 134px;display: flex; justify-content: space-between; align-items: center;}
+                  #logo1 img{width: 170px; height: 50px;  float: left; margin-top: 20px; background-repeat: no-repeat;}
+                  
+                  footer div > img{float: left; margin-right: 10px; background-repeat: no-repeat;  background-size: contain;}
+                  ul{ list-style-type: none; list-style-position: inside; padding: 20px 20px; overflow: hidden; background-color: black; opacity: 1; border: 0; float: right;}
+      
+      
+                  #foo{width: 100%; height: 120px; margin: 0 auto; display: flex; justify-content: space-around; align-items: center;}
+      
+                  #foo .see h5{clear: both;  border: 5px solid #f7a7bb; border-radius: 50px; width: 500px; text-align: center; margin: 0 auto; font-size: 25px; color: #f7a7bb;}
+                  #foo .see h5:hover{opacity: 1; background: #f7a7bb; color: black;}
+      
+                  #foo .see h5{clear: both;  border: 5px solid #f7a7bb; border-radius: 50px; width: 500px; text-align: center; margin: 0 auto; font-size: 25px; color: #f7a7bb;}
+                  #foo .see h5:hover{opacity: 1; background: #f7a7bb; color: black;}
+                  hr{ border: 0;background-color: #f7a7bb; height: 3px; width: 100%; }

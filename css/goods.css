@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+#slider {
+         width: 100%;
+         height: 100%;
+}
+#slider img {
+         width: 100%;
+         height: 100%;
+}
+
+#contents {
+         width: 1200px;
+         
+         padding: 20px;
+         box-sizing: border-box;
+         border: 2px solid #f7a7bb;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin-top: 30px;
+         margin-bottom: 30px;}
+
+         #contents h3 {
+                  text-align: center;
+                  width: 100%;
+                  height: 10px;
+                  margin: 20px;
+         }
+
+         #contents p {
+                  text-align: center;
+                  width: 100%;
+                  margin: 2%;
+         }
+         
+         .box {
+                 
+                  width: 35%;
+                  height: 17%;
+                  
+                  padding: 10px;
+                  margin: 4%;
+                  display: flex;
+                  flex-flow: column;
+                  justify-content: center;
+                  align-items: center;
+         }
+         
+         .box img {
+                  max-width: 100%;
+                  border: 2px solid #f7a7bb;
+         }
+         
+         .box img:hover {
+                  opacity: 0.8;
+         }
+         
+         .box h5 {
+                  font-size: 15px;
+                  text-align: center;
+         }
+         
+         .box p {
+                  color: #f7a7bb;
+                  font-size: 14px;
+         }
+         
+         
+         @media(max-width:599px) {
+                  #contents {
+                           width: 100%;
+                           height: auto;
+                  }
+         
+                  .box {
+                           width: 95%;
+                  }
+         }
+         
+         @media(min-width:600px) and (max-width:1099px) {
+                  #contents {
+                           width: 100%;
+                           height: auto;
+                  }
+         
+                  .box {
+                           width: 35%;
+                  }
+         }

@@ -1,0 +1,6 @@
+@charset "UTF-8";
+      
+      /* 블랙핑크 색상 #f7a7bb */
+      *{margin: 0; padding: 0;}
+      a{text-decoration: none;}
+      body{background-color: black; color: #f7a7bb; font-family: Arial, Helvetica, sans-serif}
